@@ -35,28 +35,29 @@ const sr = ScrollReveal({
 
 /*SCROLL HOME*/
 
-sr.reveal('.button',{delay: 100}); 
+/*sr.reveal('.card',{delay: 100}); 
 sr.reveal('.home__img',{delay: 200}); 
-sr.reveal('.home__social-icon',{ interval: 100}); 
+sr.reveal('.home__social-icon',{ interval: 100}); */
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img',{}); 
+sr.reveal('.card',{interval: 100}); 
+sr.reveal('.about-icon',{ interval: 100}); 
 sr.reveal('.about__subtitle',{delay: 200}); 
 sr.reveal('.about__text',{delay: 200}); 
 
-/*SCROLL EDUCATION*/
-sr.reveal('.education__content',{}); 
-sr.reveal('.education__time',{}); 
+/*SERVICE*/
+sr.reveal('.service-card',{delay: 100}); 
+sr.reveal('.service-icon',{interval: 100}); 
 
 
 /*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle',{}); 
-sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{interval: 100}); 
-sr.reveal('.skills__img',{delay: 300});
+sr.reveal('.event-card',{interval: 100}); 
+sr.reveal('.event-img',{delay: 50}); 
 
-/*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 100}); 
+
+/*SCROLL TEAM*/
+sr.reveal('.team-card',{interval: 100}); 
+sr.reveal('.team-img',{delay: 50}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 100}); 
